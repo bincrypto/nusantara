@@ -1,0 +1,216 @@
+/**
+ * Obvious Buttons 0.1
+ * https://github.com/skidding/obvious-buttons
+ *
+ * (c) 2014+ Ovidiu Cherecheș
+ * http://skidding.mit-license.org
+ */
+ .btn1 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    padding: 0 14px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+    line-height: 37px;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-property: background-color;
+    -moz-transition-duration: 0.2s;
+    -moz-transition-timing-function: linear;
+    -ms-transition-property: background-color;
+    -ms-transition-duration: 0.2s;
+    -ms-transition-timing-function: linear;
+    -o-transition-property: background-color;
+    -o-transition-duration: 0.2s;
+    -o-transition-timing-function: linear;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    background: #fafafa;
+    color: #222222;
+  }
+  .btn1 i {
+    line-height: 37px;
+  }
+  .btn1:active,
+  .btn1:active i {
+    line-height: 40px;
+  }
+  .btn1.btn1-primary,
+  .btn1.btn1-info,
+  .btn1.btn1-success,
+  .btn1.btn1-warning,
+  .btn1.btn1-danger,
+  .btn1.btn1-inverse {
+    -webkit-box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.2);
+  }
+  .btn1:hover,
+  .btn1:focus {
+    background: #e6e6e6;
+    color: #222222;
+  }
+  .btn1.btn1-primary {
+    background: #0088cc;
+    color: #fafafa;
+  }
+  .btn1.btn1-primary:hover,
+  .btn1.btn1-primary:focus {
+    background: #006da3;
+    color: #fafafa;
+  }
+  .btn1.btn1-info {
+    background: #49afcd;
+    color: #fafafa;
+  }
+  .btn1.btn1-info:hover,
+  .btn1.btn1-info:focus {
+    background: #339bba;
+    color: #fafafa;
+  }
+  .btn1.btn1-success {
+    background: #5bb75b;
+    color: #fafafa;
+  }
+  .btn1.btn1-success:hover,
+  .btn1.btn1-success:focus {
+    background: #47a247;
+    color: #fafafa;
+  }
+  .btn1.btn1-warning {
+    background: #faa732;
+    color: #fafafa;
+  }
+  .btn1.btn1-warning:hover,
+  .btn1.btn1-warning:focus {
+    background: #f9960a;
+    color: #fafafa;
+  }
+  .btn1.btn1-danger {
+    background: #da4f49;
+    color: #fafafa;
+  }
+  .btn1.btn1-danger:hover,
+  .btn1.btn1-danger:focus {
+    background: #d0312a;
+    color: #fafafa;
+  }
+  .btn1.btn1-inverse {
+    background: #363636;
+    color: #fafafa;
+  }
+  .btn1.btn1-inverse:hover,
+  .btn1.btn1-inverse:focus {
+    background: #222222;
+    color: #fafafa;
+  }
+  .btn1 span {
+    pointer-events: none;
+  }
+  .btn1:hover {
+    text-decoration: none;
+  }
+  .btn1:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  .btn1:active {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .btn1-small {
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .btn1-small i {
+    line-height: 28px;
+  }
+  .btn1-small:active,
+  .btn1-small:active i {
+    line-height: 30px;
+  }
+  .btn1-small.btn1-primary,
+  .btn1-small.btn1-info,
+  .btn1-small.btn1-success,
+  .btn1-small.btn1-warning,
+  .btn1-small.btn1-danger,
+  .btn1-small.btn1-inverse {
+    -webkit-box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  }
+  .btn1-large {
+    height: 50px;
+    padding: 0 18px;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.15);
+    font-size: 22px;
+    line-height: 46px;
+  }
+  .btn1-large i {
+    line-height: 46px;
+  }
+  .btn1-large:active,
+  .btn1-large:active i {
+    line-height: 50px;
+  }
+  .btn1-large.btn1-primary,
+  .btn1-large.btn1-info,
+  .btn1-large.btn1-success,
+  .btn1-large.btn1-warning,
+  .btn1-large.btn1-danger,
+  .btn1-large.btn1-inverse {
+    -webkit-box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2);
+  }
+  .btn1-xlarge {
+    height: 60px;
+   
+    padding: 0 22px;
+    border-radius: 7px;
+    -webkit-box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.15);
+    font-size: 26px;
+    line-height: 55px;
+  }
+  .btn1-xlarge i {
+    line-height: 55px;
+  }
+  .btn1-xlarge:active,
+  .btn1-xlarge:active i {
+    line-height: 60px;
+  }
+  .btn1-xlarge.btn1-primary,
+  .btn1-xlarge.btn1-info,
+  .btn1-xlarge.btn1-success,
+  .btn1-xlarge.btn1-warning,
+  .btn1-xlarge.btn1-danger,
+  .btn1-xlarge.btn1-inverse {
+    -webkit-box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.2);
+  }
+  .btn1-inline {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
